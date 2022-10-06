@@ -106,11 +106,14 @@ brew cask install docker
   
   app installation video: 
   
-   ![ezgif com-gif-maker](https://user-images.githubusercontent.com/105148680/193783925-1beefafa-efd3-486a-9a8b-9b916d957b6b.gif)
+https://user-images.githubusercontent.com/105148680/194262232-2176dcc2-c3cb-4468-9aa1-1f94d3112d86.mov
 
+    
   app running video:
-  
-   ![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/105148680/193790919-3960fc4b-238d-419e-bbd4-66aa3769fa14.gif)
+
+https://user-images.githubusercontent.com/105148680/194262951-fce8271a-c3be-4726-badd-738f00f65ed9.mov
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,3 +165,6 @@ Project Link: https://github.com/Reounaka/8200Dev_Project
 [linkedin.shield]:https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [github-url]: https://github.com/Reounaka/
 [github.shield]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+
+
+
