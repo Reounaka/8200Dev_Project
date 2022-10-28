@@ -1,7 +1,7 @@
 node {
     def app
     
-    enviroment{
+    environment{
         DOCKERHUB_CREDENTIALS = credentials('credential-dockerhub')
     }
 
