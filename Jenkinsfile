@@ -2,7 +2,7 @@ node {
     def app
     
     environment{
-       DOCKERHUB_CREDENTIALS=credentials('credential-dockerhub')
+       DOCKERHUB_CREDENTIALS = credentials('credential-dockerhub')
     }
 
     stage('Clone repository') {
@@ -15,7 +15,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("reounaka/8200dev_img:latest")
+        app = docker.build("reounaka/8200dev_project:latest")
     }
 
     stage('Test image') {
