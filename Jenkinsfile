@@ -2,7 +2,7 @@ node {
     def app
     
     environment{
-        DOCKERHUB_CREDENTIALS = credentials('credential-dockerhub')
+       DOCKERHUB_CREDENTIALS=credentials('credential-dockerhub')
     }
 
     stage('Clone repository') {
@@ -28,7 +28,7 @@ node {
     }
     
     stage('Login') {
-            sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin'
+            sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
 
 
     }
