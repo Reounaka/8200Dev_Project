@@ -1,7 +1,7 @@
 pipeline {
     agent any 
-    def app
     environment{
+       app=''
        DOCKERHUB_CREDENTIALS = credentials('credential-dockerhub')
     }
 
