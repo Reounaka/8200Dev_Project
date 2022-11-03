@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('amonkincloud-dockerhub')
+    DOCKERHUB_CREDENTIALS = credentials('reounaka-dockerhub')
     }
     stages { 
 
@@ -17,7 +17,7 @@ pipeline {
         }
         stage('push image') {
             steps{
-                sh 'docker push ylmt/flaskapp:$BUILD_NUMBER'
+                sh 'docker push reounaka/8200dev_project:$BUILD_NUMBER'
             }
         }
 }
