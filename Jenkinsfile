@@ -4,9 +4,10 @@ pipeline {
     DOCKERHUB_CREDENTIALS = credentials('reounaka-dockerhub')
     }
     stages { 
+        
         stage('SCM Checkout') {
             steps {  
-                git 'https://github.com/Reounaka/8200Dev_Project.git'
+                  git branch: 'main', url: 'https://github.com/Reounaka/8200Dev_Project'         
             }
         }
 
