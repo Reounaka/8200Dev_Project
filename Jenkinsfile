@@ -13,7 +13,7 @@ pipeline {
 
         stage('Build docker image') {
             steps {  
-                sh 'docker build -t ylmt/flaskapp:$BUILD_NUMBER .'
+                sh 'docker build -t reounaka/8200dev_project:$BUILD_NUMBER .'
             }
         }
         stage('login to dockerhub') {
