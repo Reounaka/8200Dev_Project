@@ -11,9 +11,7 @@ services:
     volumes:
       - data:/var/lib/mysql
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image:reounaka/8200dev_project:latest
     container_name: flask_container
     ports:
       - 5000:5000
