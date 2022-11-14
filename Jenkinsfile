@@ -27,8 +27,10 @@ pipeline {
         stage('Push Image') {
             steps{
                 sh'''
-		        docker push reounaka/8200dev_project:latest
-		        '''
+		   docker push reounaka/8200dev_project:latest
+		   scp -i Key-amazon.pem /var/lib/jenkins/workspace/$JOB_NAME/docker-compose.yml ec2-user@test:/home/ec2-user
+		   scp -i Key-amazon.pem /var/lib/jenkins/workspace/$JOB_NAME/.env ec2-user@test:/home/ec2-user
+		  '''
             }
         }
 
