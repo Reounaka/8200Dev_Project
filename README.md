@@ -131,7 +131,7 @@ https://user-images.githubusercontent.com/105148680/194262951-fce8271a-c3be-4726
     
  <div align="left">
   
-   
+
 1.A developer pushes the source code to GitHub, which lends itself as the Version Control System.   
 2.GitHub triggers a post-commit hook to Jenkins Build.    
 3.Jenkins Build creates the container image and pushes it to DockerHub Registry.    
