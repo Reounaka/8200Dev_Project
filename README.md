@@ -121,15 +121,19 @@ https://user-images.githubusercontent.com/105148680/194262951-fce8271a-c3be-4726
   
 <!-- CI/CD -->
 ## CI/CD
-  This is a simple demo on the usage of Docker Build, and Container Registry (DockerHub), Git and GitHub to build a CI/CD pipeline.
+  This is a simple demo on the usage of Jenkins, Docker Build, and Container Registry (DockerHub), Git and GitHub to build a CI/CD pipeline.
   Here’s a diagram that summarizes the workflow:
   
   <div align="center">
   <a href="[https://github.com/Reounaka/8200Dev_Project]">
-    <img src="https://github.com/Reounaka/8200Dev_Project/blob/main/static/Screenshot%202022-12-05%20at%2013.09.49.png" alt="Logo" width="1000" height="200">
+    <img src="https://github.com/Reounaka/8200Dev_Project/blob/main/static/Screenshot%202022-12-05%20at%2013.09.49.png" alt="Logo" width="1000" height="400">
   </a>
-For the integration and deployment process, Jenkins is was chosen for the pipeline. Besides the build-in slave 
-
+    
+1.A developer pushes the source code to GitHub, which lends itself as the Version Control System.
+2.GitHub triggers a post-commit hook to Jenkins Build.
+3.Jenkins Build creates the container image and pushes it to DockerHub Registry.
+4.Jenkins "Test Slave" pull the image and runs it to test the website .
+5.After getting OK from the user, Jenkins deploy the new features to the webiste on "Production's Slave".
 
 <!-- CONTRIBUTING -->
 ## Contributing
