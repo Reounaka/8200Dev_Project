@@ -129,6 +129,8 @@ https://user-images.githubusercontent.com/105148680/194262951-fce8271a-c3be-4726
     <img src="https://github.com/Reounaka/8200Dev_Project/blob/main/static/Screenshot%202022-12-05%20at%2013.09.49.png" alt="Logo" width="1000" height="400">
   </a>
     
+ <div align="left">
+    
 1.A developer pushes the source code to GitHub, which lends itself as the Version Control System.
     
 2.GitHub triggers a post-commit hook to Jenkins Build.
