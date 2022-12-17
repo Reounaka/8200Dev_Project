@@ -136,7 +136,7 @@ https://user-images.githubusercontent.com/105148680/194262951-fce8271a-c3be-4726
 2.GitHub triggers a post-commit hook to Jenkins Build.    
 3.Jenkins Build creates the container image and pushes it to DockerHub Registry.    
 4.Jenkins "Test Slave" pull the image and runs it to test the website .    
-5.After getting OK from the user, Jenkins deploy the new features to the webiste on "Production's Slave".
+5.After getting OK from the user, Jenkins deploy the new features to the website on "Production's Slave".
 
 <!-- CONTRIBUTING -->
 ## Contributing
